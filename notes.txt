@@ -3,6 +3,8 @@ Followed example from - https://github.com/openai/openai-agents-python/tree/main
 https://openai.github.io/openai-agents-python/quickstart/
 
 
+$ python -m venv .venv
+
 $ source .venv/bin/activate
 
 $ pip install openai-agents uv # or `uv add openai-agents`, etc
@@ -14,3 +16,8 @@ $ uv run python mcp-sse-test.py
 
 # To run just the mcp server
 $ uv run python mcp-local-server.py
+
+
+
+Trace log of Agent activity
+https://platform.openai.com/traces/trace?trace_id=trace_69c616732df548ab9445fd1cde8477c8
